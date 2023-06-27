@@ -9,8 +9,8 @@ const UploadFile = require('./invoice-app-api/services/uploadFile');
 const multer = require('multer');
 const port = process.env.PORT || 5000;
 
-connectDB();
 
+connectDB();
 const app = express();
 const router = express.Router()
 
